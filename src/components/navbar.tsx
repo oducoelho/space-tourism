@@ -5,14 +5,16 @@ import { NavContainer, Options } from '../styles/pages/NavBar'
 export const NavBar = () => {
   return (
     <NavContainer>
-      <Image src={Logo} alt="" />
+      <div>
+        <Image src={Logo} alt="" />  
+      </div>
 
       <Options>
         <ul>
-          <li>00 HOME</li>
-          <li>01 DESTINATION</li>
-          <li>02 CREW</li>
-          <li>03 TECHNOLOGY</li>
+          <li><strong>00</strong> HOME</li>
+          <li><strong>01</strong> DESTINATION</li>
+          <li><strong>02</strong> CREW</li>
+          <li><strong>03</strong> TECHNOLOGY</li>
         </ul>
       </Options>
     </NavContainer>
